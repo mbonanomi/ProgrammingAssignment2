@@ -27,6 +27,5 @@ cacheSolve <- function(x, ...) {
     data <- x$get()
     inv <- solve(data, ...)
     x$setinv(inv)
-    message("inversa per la prima volta")
     inv
 }
